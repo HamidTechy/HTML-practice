@@ -1,59 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <form>
-        <h3>Event Resgistration</h3>
-        <label for="name">Name:</label>
-        <br/>
-        <input type="text" name="name" id="name">
-        <br/>
-        <br/>
-        <label for="email">Email:</label>
-        <br/>
-        <input type="email" name="email" id="email">
-        <br/>
-        <br/>
-        <label for="phone">Phone:</label>
-        <br/>
-        <input type="number" name="phone" id="phone">
-        <br/>
-        <br/>
-        <label for="occupation">Occupation:</label>
-        <br/>
-        <select name="occupation" id="occupation">
+      <h3>Event Resgistration</h3>
+      <label for="name">Name:</label>
+      <br />
+      <input type="text" name="name" id="name" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+      <label for="phone">Phone:</label>
+      <br />
+      <input type="number" name="phone" id="phone" />
+      <br />
+      <br />
+      <label for="occupation">Occupation:</label>
+      <br />
+      <select name="occupation" id="occupation">
         <option value="engineer">Software Engineer</option>
         <option value="teacher">Teacher</option>
         <option value="admin">Admin</option>
-        </select>
-        <br/>
-        <fieldset>
+      </select>
+      <br />
+      <fieldset>
         <legend>Topic of Interest</legend>
         <label for="javascript">Javascript</label>
-        <br/>
-        <input type="checkbox" name="javascript" id="javascript">
-        <br/>
-        <br/>
+        <br />
+        <input type="checkbox" name="javascript" id="javascript" />
+        <br />
+        <br />
         <label for="html">HTML:</label>
-        <br/>
-        <input type="checkbox" name="html" id="html">
-        <br/>
-        <br/>
+        <br />
+        <input type="checkbox" name="html" id="html" />
+        <br />
+        <br />
         <label for="css">Css:</label>
-        <br/>
-        <input type="checkbox" name="css" id="css">
-        </fieldset>
-        <br/>
-        <br/>
-        <label for="comment">Comment:</label>
-        <br/>
-        <textarea name="comment" id="comment" rows="10" cols="30"></textarea>
-        
-        <input type="submit" value="Register">
+        <br />
+        <input type="checkbox" name="css" id="css" />
+      </fieldset>
+      <br />
+      <br />
+      <label for="comment">Comment:</label>
+      <br />
+      <textarea name="comment" id="comment" rows="10" cols="30"></textarea>
+
+      <input type="submit" value="Register" />
     </form>
-</body>
+
+    <h2>2nd Form</h2>
+    <form>
+      <h3>Job Applicatin</h3>
+      <label for="name">Name:</label>
+      <br />
+      <input type="text" name="name" id="name" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+      <label for="phone">Phone:</label>
+      <br />
+      <input type="number" name="phone" id="phone" />
+      <br />
+      <br />
+      <label for="file">Resume:</label>
+      <br />
+      <input type="file" name="file" id="file" />
+      <br />
+      <br />
+      <label for="experience">Experience(Years)</label>
+      <br />
+      <input type="number" name="experience" id="experience" min="0" max="50" />
+      <br />
+      <br />
+      <fieldset>
+        <legend>Skills:</legend>
+        <label for="javascript">Javascript</label>
+        <br />
+        <input type="checkbox" name="javascript" id="javascript" />
+        <br />
+        <br />
+        <label for="html">HTML:</label>
+        <br />
+        <input type="checkbox" name="html" id="html" />
+        <br />
+        <br />
+        <label for="css">Css:</label>
+        <br />
+        <input type="checkbox" name="css" id="css" />
+      </fieldset>
+      <br />
+      <br />
+      <label for="education">Heighest Level oF education:</label>
+      <br />
+      <select name="education" id="education">
+        <option value="Matric">Heigh School</option>
+        <option value="inter">Intermediate</option>
+        <option value="Graduate">Graduation</option>
+      </select>
+      <fieldset>
+        <legend>Availability</legend>
+        <br />
+        <br />
+        <label for="fulltime">Full Time:</label>
+        <br />
+        <input type="radio" name="availible" id="fulltime" />
+        <br />
+        <br />
+        <label for="halftime">Half Time:</label>
+        <br />
+        <input type="radio" name="availible" id="halftime" />
+      </fieldset>
+      <label for="comment">Additional Comment</label>
+      <br/>
+      <textarea name="comment" id="comment" rows="5" cols="30"></textarea>
+      <br/>
+      <input type="submit" value="Submit Applicatin">
+    </form>
+    <h2>3rd Form</h2>
+    <form ></form>
+  </body>
 </html>
